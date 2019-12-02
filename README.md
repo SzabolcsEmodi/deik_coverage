@@ -1,0 +1,1 @@
+This is a skeleton project for practice the code coverages.
