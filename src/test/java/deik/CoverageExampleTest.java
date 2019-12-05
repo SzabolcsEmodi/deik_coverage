@@ -11,8 +11,27 @@ public class CoverageExampleTest {
     public void firstTest() {
         //Given
         //When
-        int i = coverageExample.decision(1,2,3);
+        int i = coverageExample.decision(354,4,2);
         //Then
-        assertEquals(i, 0);
+        assertEquals(i, 2);
+    }
+
+
+    @Test
+    public void secondTest() {
+        //Given
+        //When
+        int i = coverageExample.decision(354,2,4);
+        //Then
+        assertEquals(i, 2);
+    }
+
+    @Test
+    public void thirdTest() {
+        //Given
+        //When
+        int i = coverageExample.decision(1,13,7);
+        //Then
+        assertEquals(i, 1);
     }
 }

@@ -2,6 +2,14 @@ package deik;
 
 public class CoverageExample {
     public int decision(int a, int b, int c) {
-        return 0;
+
+        if (a==354) {
+            if (b > c) {
+                a = c;
+            } else {
+                a = b;
+            }
+        }
+        return a;
     }
 }
